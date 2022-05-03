@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import logo from '../public/images/logo2.jpg'
+import Image from 'next/image'
+
 
 function NavLink({to, children}) {
     return <a href={to} className={`mx-4`}>
@@ -11,7 +14,15 @@ function MobileNav({open, setOpen}) {
     return (
         <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
-                <a className="text-xl font-semibold no-underline bg-red-500 text-zinc-50 rounded-lg hover:text-zinc-50" href="/">TECHSPACE</a>
+                <Link  href="/">
+                  <Image
+                  className="w-44 object-contain cursor-pointer"
+                  src={logo}
+                  width={100}
+                  height={70}
+                  />
+                
+                </Link>
             </div>
             <div className="flex flex-col ">
                 <a className=" no-underline text-xl font-medium my-4 hover:text-indigo-600  font-serif text-brand-darkblue  active:text-indigo-600 mx-4 cursor-pointer" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -35,7 +46,17 @@ export default function Navbar() {
         <nav className="flex filter drop-shadow-md bg-white px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
-                <a className="text-2xl font-semibold no-underline bg-red-500 text-zinc-50 rounded-lg hover:text-zinc-50" href="/">TECHSPACE</a>
+            <Link  href="/">
+                  <Image
+                  className=" object-contain  cursor-pointer ml-40"
+                  src={logo}
+                  width={100}
+                  height={70}
+                  />
+                
+                </Link>
+
+               
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
