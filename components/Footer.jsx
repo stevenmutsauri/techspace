@@ -1,6 +1,11 @@
 import React from 'react'
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 function Footer() {
+
   return (
    <footer className="text-center bg-gray-900 text-white">
   <div className="container px-6 pt-6">
@@ -51,18 +56,21 @@ function Footer() {
           py-1.5
           text-base
           font-normal
-          text-gray-700
+          text-white-700
           bg-white bg-clip-padding
           border border-solid border-gray-300
           rounded
           transition
           ease-in-out
           m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-        " id="exampleFormControlInput1" placeholder="Email address" />
+          focus:text-white-700 focus:bg-white focus:border-blue-600 focus:outline-none
+        " id="exampleFormControlInput1"
+         placeholder="Email address" 
+         name="newsletter"
+         />
           </div>
           <div className="md:mr-auto mb-6">
-            <button type="submit" className="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+            <button type="submit" className="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out cursor-pointer">
               Subscribe
             </button>
           </div>
@@ -70,14 +78,79 @@ function Footer() {
       </form>
     </div>
    
-    <div className="grid lg:grid-cols-4 md:grid-cols-2">
-    
-   
-    </div>
+    <div className="bg-gray-900  h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
+        <div className="p-5 ">
+          <ul>
+            <p className="text-white-800 font-bold text-3xl pb-6">
+              Tech<span className="text-indigo-600">Space</span>
+            </p>
+            <div className="flex gap-6 pb-5">
+              <FaInstagram className="text-2xl cursor-pointer text-yellow-500 hover:text-yellow-600" />
+              <FaTwitter className="text-2xl cursor-pointer text-yellow-500 hover:text-violet-600" />
+              <FaLinkedin className="text-2xl cursor-pointer text-yellow-500 hover:text-violet-600" />
+              <FaYoutube className="text-2xl cursor-pointer text-yellow-500 hover:text-red-600" />
+            </div>
+          </ul>
+        </div>
+        <div className="p-5">
+          <ul>
+            <p className="text-white-800 font-bold text-2xl pb-4">Product</p>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Web Apps
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Apps
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Tshirts
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Laptops
+            </li>
+          </ul>
+        </div>
+        <div className="p-5">
+          <ul>
+            <p className="text-white-800 font-bold text-2xl pb-4">Company</p>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Services
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              About
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Blog
+            </li>
+
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Press & Media
+            </li>
+          </ul>
+        </div>
+        <div className="p-5">
+          <ul>
+            <p className="text-white-800 font-bold text-2xl pb-4">Support</p>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Contact
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              FAQ's
+            </li>
+
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Downloads & Resources
+            </li>
+            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
+              Videos
+            </li>
+          </ul>
+        </div>
+      </div>
+      
   </div>
   <div className="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
     © 2022 Copyright:
-    <a className="text-white" href="https://epctechspace.com.com/"> EPC TECHSPACE</a>
+    <a className="text-white no-underline" href="https://epctechspace.com.com/ ">  EPC TECHSPACE</a>
   </div>
 </footer>
 

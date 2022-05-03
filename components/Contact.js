@@ -22,6 +22,7 @@ function Contact() {
                 <label for="exampleFormControlInput1">Enter Full Name</label>
                 <input
                   type="text"
+                  name="name"
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="Enter Your Name"
@@ -31,6 +32,7 @@ function Contact() {
                 <label for="exampleFormControlInput1">Contact Number</label>
                 <input
                   type="text"
+                  name="number"
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="enter number"
@@ -40,6 +42,7 @@ function Contact() {
                 <label for="exampleFormControlInput1">Email address</label>
                 <input
                   type="email"
+                  name= "email"
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="email"
@@ -60,7 +63,6 @@ function Contact() {
 
               <div className="col-12 pt-3 ">
                 <button
-                  onClick={onClickButton}
                   className="btn btn-outline-primary mb-3 items-center"
                   type="submit"
                 >
