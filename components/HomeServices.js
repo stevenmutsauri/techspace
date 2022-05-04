@@ -20,13 +20,13 @@ function services() {
           <div className="group flex-col cursor-pointer justify-center items-center border hover:bg-violet-500 hover:shadow-lg  border-violet-100 rounded-md p-8 hover:border-violet-500">
             <MdWeb className="text-4xl text-gray-600 group-hover:text-white" />
             <h1 className="text-xl text-gray-800 font-semibold group-hover:text-white my-2">
-              Web Development
+              Web Design
             </h1>
           </div>
           <div className="group flex-col cursor-pointer justify-center items-center border hover:bg-violet-500 hover:shadow-lg  border-violet-100 rounded-md p-8 hover:border-violet-500">
             <AiOutlineAppstoreAdd className="text-4xl text-gray-600 group-hover:text-white" />
             <h1 className="text-xl text-gray-800 font-semibold group-hover:text-white my-2">
-              App Development
+              App Design
             </h1>
           </div>
           <div className="group flex-col cursor-pointer justify-center items-center border hover:bg-violet-500 hover:shadow-lg  border-violet-100 rounded-md p-8 hover:border-violet-500">
