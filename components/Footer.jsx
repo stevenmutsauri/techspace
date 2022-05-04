@@ -74,7 +74,7 @@ function Footer() {
       </form>
     </div>
    
-    <div className="bg-gray-900  h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
+    <div className="bg-gray-900  flex md:flex-row flex-col justify-around items-start p-20">
         <div className="p-5 ">
           <ul>
             <p className="text-white-800 font-bold text-3xl pb-6">
@@ -101,7 +101,7 @@ function Footer() {
               Tshirts
             </li>
             <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Laptops
+              Themes
             </li>
           </ul>
         </div>
