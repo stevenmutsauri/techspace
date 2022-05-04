@@ -13,7 +13,7 @@ function services() {
     <div className="flex-col justify-center items-center my-20">
       <p className="text-violet-500 uppercase text-center">Services</p>
       <h2 className="text-5xl  text-center">
-        Our Best<span className="font-bold"> Services</span>
+        Our Best<span className="font-bold"> Services👇</span>
       </h2>
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-2 md:mx-0 mx-10 md:grid-cols-3 gap-5 my-20">

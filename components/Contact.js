@@ -66,7 +66,7 @@ function Contact() {
                   className="btn btn-outline-primary mb-3 items-center"
                   type="submit"
                 >
-                  Submit form
+                  Send Message
                 </button>
               </div>
             </form>

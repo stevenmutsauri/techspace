@@ -59,7 +59,7 @@ function Trending() {
         <div className="flex-col items-start justify-start sm:mt-8 md:mt-0 md:ml-20">
         
           <p className="mt-5 w-3/4 text-base text-gray-600 md:text-xl">
-           we have worked with several companies both startups, huge comapanies and
+           We have worked with several companies  startups, huge comapanies and
            individual clients providing value to thier businesses,we build real world projects
          
           </p>
@@ -69,7 +69,7 @@ function Trending() {
               <p className="text-xl font-medium text-gray-600">projects</p>
             </div>
             <div className="my-5 flex-col">
-              <h1 className="text-4xl font-bold text-gray-600">30+</h1>
+              <h1 className="text-4xl font-bold text-gray-600">10+</h1>
               <p className="text-xl font-medium text-gray-600">companies</p>
             </div>
             <div className="my-5 flex-col">

@@ -16,9 +16,9 @@ function MainPage() {
               IT SOLUTIONS
             </h3>
             <p className="text-base text-gray-500 md:text-xl">
-             we provide technological solutions to any company, business or people.
-             we are a group of talented developers with a mission to help you grow
-             your business with IT SOLUTIONS🔥 
+             We provide technological solutions to any company, business or people.
+             we are a group of talented developers on a mission to help you grow
+             your business with IT Solutions🔥 
             </p>
             <div className="mt-12 flex items-start justify-start gap-5 text-center ">
               <Link href ='/services'>

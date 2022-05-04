@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Services', href: '/services', current: true },
   { name: 'Home', href: '/', current: false },
   { name: 'Promotion', href: '#', current: false },
-  { name: 'About Us', href: '#', current: false },
+  { name: 'About Us', href: '/about', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="relative mx-0 flex h-16 items-center justify-between md:mx-20">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-violet-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white  no-underline">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-red-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white  no-underline">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -57,8 +57,8 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? 'bg-red-500  text-white  no-underline hover:bg-violet-500'
-                            : 'text-gray-300 hover:bg-violet-500 hover:text-white hover:shadow-lg no-underline',
+                            ? '  text-violet-500  no-underline hover:bg-red-500 hover:text-white'
+                            : 'text-violet-500 hover:bg-red-500 hover:text-white hover:shadow-lg no-underline',
                           'rounded-md px-3 py-2 text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -71,7 +71,7 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <Link href ='/contact'>
-                <button className="rounded-md border bg-red-500 border-violet-100  px-3 py-2 text-sm font-medium  hover:shadow-lg text-white hover:bg-violet-500">
+                <button className="rounded-md border bg-violet-500 border-violet-100  px-3 py-2 text-sm font-medium  hover:shadow-lg text-white hover:bg-red-500">
                   Contact Us
                 </button>
                 </Link>
@@ -88,8 +88,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? 'bg-violet-500 text-white shadow-lg'
-                      : 'text-gray-300 hover:bg-violet-500 hover:text-white hover:shadow-lg',
+                      ? 'bg-red-500 text-white shadow-lg no-underline'
+                      : 'text-violet-500 hover:bg-red-500 hover:text-white hover:shadow-lg no-underline',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
