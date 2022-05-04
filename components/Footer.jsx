@@ -74,74 +74,7 @@ function Footer() {
       </form>
     </div>
    
-    <div className="flex md:flex-row flex-col justify-around items-start p-20">
-        <div className="p-5 ">
-          <ul>
-            <p className="text-white-800 font-bold text-3xl pb-6">
-              Tech<span className="text-indigo-600">Space</span>
-            </p>
-            <div className="flex gap-6 pb-5">
-              <FaInstagram className="text-2xl cursor-pointer text-yellow-500 hover:text-yellow-600" />
-              <FaTwitter className="text-2xl cursor-pointer text-yellow-500 hover:text-violet-600" />
-              <FaLinkedin className="text-2xl cursor-pointer text-yellow-500 hover:text-violet-600" />
-              <FaYoutube className="text-2xl cursor-pointer text-yellow-500 hover:text-red-600" />
-            </div>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-white-800 font-bold text-2xl pb-4">Product</p>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Web Apps
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Apps
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Tshirts
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Themes
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-white-800 font-bold text-2xl pb-4">Company</p>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Services
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              About
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Blog
-            </li>
-
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Press & Media
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-white-800 font-bold text-2xl pb-4">Support</p>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Contact
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              FAQ's
-            </li>
-
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Downloads & Resources
-            </li>
-            <li className="text-white-500 text-sm pb-2 font-semibold hover:text-violet-600 cursor-pointer">
-              Videos
-            </li>
-          </ul>
-        </div>
-      </div>
+    
       
   </div>
   <div className="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
