@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title>techspace</title>
+        <title>TechSpace</title>
         <link rel="icon" href="/favicon.ico"  className=" rounded-sm"/>
       </Head>
  
